@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+
+# Datasets
+data/
+data_augmented/
+data_clean/
+Cucumber_leaf/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Caches / logs / temporary files
+.pytest_cache/
+.mypy_cache/
+*.log
+*.tmp
+
+# Experimental model checkpoints
+outputs/vit/best_baseline_96.37.pt
+outputs/vit_augmented/
+outputs/resnet50/
+outputs/resnet50_augmented/
+outputs/efficientnet/
+outputs/mobilenet/
+
+# Experimental/generated reports
+outputs/comparison_table.json

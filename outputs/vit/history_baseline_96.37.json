@@ -1,0 +1,51 @@
+{
+  "model": "vit",
+  "class_names": [
+    "Anthracnose",
+    "Bacterial_Wilt",
+    "Belly_Rot",
+    "Downy_Mildew",
+    "Fresh_Cucumber",
+    "Fresh_Leaf",
+    "Gummy_Stem_Blight",
+    "Pythium_Fruit_Rot"
+  ],
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.7395896891641882,
+      "train_acc": 0.4223463687150838,
+      "val_loss": 1.449422609119515,
+      "val_acc": 0.5497382198952879
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.284132024429364,
+      "train_acc": 0.6547486033519553,
+      "val_loss": 1.235848444294555,
+      "val_acc": 0.6230366492146597
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5016804796690382,
+      "train_acc": 0.8335195530726257,
+      "val_loss": 0.31347414523519146,
+      "val_acc": 0.8900523560209425
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.1789781398779853,
+      "train_acc": 0.9396648044692737,
+      "val_loss": 0.3039192992667253,
+      "val_acc": 0.9057591623036649
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.09184532982385692,
+      "train_acc": 0.9675977653631285,
+      "val_loss": 0.19139322591701727,
+      "val_acc": 0.9319371727748691
+    }
+  ],
+  "best_val_acc": 0.9319371727748691
+}

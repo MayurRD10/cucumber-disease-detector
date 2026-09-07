@@ -1,0 +1,157 @@
+{
+  "classification_report": {
+    "Anthracnose": {
+      "precision": 0.9545454545454546,
+      "recall": 0.875,
+      "f1-score": 0.9130434782608695,
+      "support": 24.0
+    },
+    "Bacterial_Wilt": {
+      "precision": 1.0,
+      "recall": 0.96,
+      "f1-score": 0.9795918367346939,
+      "support": 25.0
+    },
+    "Belly_Rot": {
+      "precision": 0.96,
+      "recall": 1.0,
+      "f1-score": 0.9795918367346939,
+      "support": 24.0
+    },
+    "Downy_Mildew": {
+      "precision": 0.9230769230769231,
+      "recall": 1.0,
+      "f1-score": 0.96,
+      "support": 24.0
+    },
+    "Fresh_Cucumber": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "Fresh_Leaf": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "Gummy_Stem_Blight": {
+      "precision": 0.88,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.8979591836734694,
+      "support": 24.0
+    },
+    "Pythium_Fruit_Rot": {
+      "precision": 1.0,
+      "recall": 0.9583333333333334,
+      "f1-score": 0.9787234042553191,
+      "support": 24.0
+    },
+    "accuracy": 0.9637305699481865,
+    "macro avg": {
+      "precision": 0.9647027972027972,
+      "recall": 0.96375,
+      "f1-score": 0.9636137174573807,
+      "support": 193.0
+    },
+    "weighted avg": {
+      "precision": 0.9648856842639226,
+      "recall": 0.9637305699481865,
+      "f1-score": 0.9636965056401647,
+      "support": 193.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      21,
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      24,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      24,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      24,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      24,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      24,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      22,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      23
+    ]
+  ],
+  "class_names": [
+    "Anthracnose",
+    "Bacterial_Wilt",
+    "Belly_Rot",
+    "Downy_Mildew",
+    "Fresh_Cucumber",
+    "Fresh_Leaf",
+    "Gummy_Stem_Blight",
+    "Pythium_Fruit_Rot"
+  ]
+}
